@@ -25,7 +25,7 @@ This class provides methods to set/modify HTTP-Headers. To abstract
 common things, like caching etc. some sub classes are provided that
 handle special cases (i.e. HTTP_Header_Cache).
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa udostêpnia metody do ustawiania/modyfikowania nag³ówków HTTP.
