@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
 Summary(pl):	%{_pearname} - Obiektowy interfejs do modyfikowania nag³ówków HTTP
 Name:		php-pear-%{_pearname}
-Version:	0.1.6
+Version:	0.2.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	a8cfa5a365a45c3d537d61823132c9c6
+# Source0-md5:	e6d8014f30e8b266f3d6f35d2fb5c75e
 URL:		http://pear.php.net/package/HTTP_Header/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
