@@ -4,7 +4,7 @@
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
-Summary(pl):	%{_pearname} - Interfejs OO do modyfikowania nag³ówków HTTP
+Summary(pl):	%{_pearname} - Obiektowy interfejs do modyfikowania nag³ówków HTTP
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -26,6 +26,10 @@ handle special cases (i.e. HTTP_Header_Cache).
 This class has in PEAR status: %{_status}.
 
 %description -l pl
+Ta klasa udostêpnia metody do ustawiania/modyfikowania nag³ówków HTTP.
+Aby wyabstrahowaæ wspólne elementy, takie jak buforowanie itp.,
+zosta³o udostêpnionych trochê podklas obs³uguj±cych specjalne
+przypadki (np. HTTP_Header_Cache).
 
 Ta klasa ma w PEAR status: %{_status}.
 
