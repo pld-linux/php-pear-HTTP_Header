@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTTP
 %define		_subclass	Header
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
 Summary(pl):	%{_pearname} - Obiektowy interfejs do modyfikowania nag³ówków HTTP
 Name:		php-pear-%{_pearname}
-Version:	0.3.0
+Version:	1.0.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	3ca0b740c67bc7fd1ef6d39cec2a1d50
+# Source0-md5:	dd12684a0bb85f2d6e2625dd4ad78854
 URL:		http://pear.php.net/package/HTTP_Header/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
@@ -50,7 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc %{_pearname}-%{version}/docs/*
+%doc %{_pearname}-%{version}/tests
 %dir %{php_pear_dir}/%{_class}/%{_subclass}
 %{php_pear_dir}/%{_class}/*.php
 %{php_pear_dir}/%{_class}/%{_subclass}/*.php
