@@ -3,15 +3,16 @@
 %define		_subclass	Header
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
 Summary(pl):	%{_pearname} - Obiektowy interfejs do modyfikowania nag³ówków HTTP
 Name:		php-pear-%{_pearname}
-Version:	0.1.4
+Version:	0.1.5
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1caac4664746757c5e2a2829ffdd7019
+# Source0-md5:	4eda72d01dcfa91382e96567d090c70d
 URL:		http://pear.php.net/package/HTTP_Header/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
