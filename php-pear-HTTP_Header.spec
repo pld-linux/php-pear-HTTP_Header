@@ -15,8 +15,10 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	62222d55ab440a35ec686118c7693c8f
 URL:		http://pear.php.net/package/HTTP_Header/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:4.2.0
 Requires:	php-pear
-Requires:	php-pear-HTTP >= 1.2
+Requires:	php-pear-HTTP >= 1.3.1
+Requires:	php-pear-PEAR
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
