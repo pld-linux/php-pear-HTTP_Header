@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	68e0a84fb3aca46e6e0a6ccfe25c2d6b
 URL:		http://pear.php.net/package/HTTP_Header/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-common >= 3:4.2.0
 Requires:	php-pear
