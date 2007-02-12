@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
-Summary(pl):	%{_pearname} - Obiektowy interfejs do modyfikowania nag³ówków HTTP
+Summary(pl.UTF-8):   %{_pearname} - Obiektowy interfejs do modyfikowania nagÅ‚Ã³wkÃ³w HTTP
 Name:		php-pear-%{_pearname}
 Version:	1.2.0
 Release:	2
@@ -31,17 +31,17 @@ handle special cases (i.e. HTTP_Header_Cache).
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa udostêpnia metody do ustawiania/modyfikowania nag³ówków HTTP.
-Aby wyabstrahowaæ wspólne elementy, takie jak buforowanie itp.,
-zosta³o udostêpnionych trochê podklas obs³uguj±cych specjalne
+%description -l pl.UTF-8
+Ta klasa udostÄ™pnia metody do ustawiania/modyfikowania nagÅ‚Ã³wkÃ³w HTTP.
+Aby wyabstrahowaÄ‡ wspÃ³lne elementy, takie jak buforowanie itp.,
+zostaÅ‚o udostÄ™pnionych trochÄ™ podklas obsÅ‚ugujÄ…cych specjalne
 przypadki (np. HTTP_Header_Cache).
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
@@ -50,7 +50,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
