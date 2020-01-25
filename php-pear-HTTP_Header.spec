@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	HTTP_Header
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - OO-Interface to modify HTTP-Headers easily
 Summary(pl.UTF-8):	%{_pearname} - Obiektowy interfejs do modyfikowania nagłówków HTTP
 Name:		php-pear-%{_pearname}
